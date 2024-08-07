@@ -1,4 +1,4 @@
-Given the following message: '{{cc.text.clean}}'.
+Given the following message: '{text}'.
 
 - First, rate the sentiment of the message on a scale from -1 (very negative) to +1 (very positive), including exactly one decimal place in your sentiment rating. Utilize common sentiment analysis methods, considering the context of the message. If sentiment cannot be determined, return null.
 - Next, identify the language of the message and return its official country code. Utilize language recognition software or algorithms. If no language is detected, return null.
