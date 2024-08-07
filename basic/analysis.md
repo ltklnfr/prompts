@@ -1,8 +1,8 @@
 Given the following message: '{text}'.
 
-- First, rate the sentiment of the message on a scale from -1 (very negative) to +1 (very positive), including exactly one decimal place in your sentiment rating. Utilize common sentiment analysis methods, considering the context of the message. If sentiment cannot be determined, return null.
-- Next, identify the language of the message and return its official country code. Utilize language recognition software or algorithms. If no language is detected, return null.
-- Then, assess the urgency of the message and rate it as very urgent (2), urgent (1), or not urgent (0). Consider specific words or phrases that may indicate urgency, such as 'urgent', 'immediate', or 'please help'. If no indication of urgency is found, return null.
+1. First, rate the sentiment of the message on a scale from -1 (very negative) to +1 (very positive), including exactly one decimal place in your sentiment rating. Utilize common sentiment analysis methods, considering the context of the message. If sentiment cannot be determined, return null.
+2. Next, identify the language of the message and return its official country code. Utilize language recognition software or algorithms. If no language is detected, return null.
+3. Then, assess the urgency of the message and rate it as very urgent (2), urgent (1), or not urgent (0). Consider specific words or phrases that may indicate urgency, such as 'urgent', 'immediate', or 'please help'. If no indication of urgency is found, return null.
 
 Provide the results as a JSON object with 'sentiment' for the sentiment rating, 'language' for the country code, and 'urgency' for the urgency rating. For example, if the sentiment is somewhat positive, the message is in English, and the message is urgent, return: 
 ```
