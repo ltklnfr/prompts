@@ -40,7 +40,13 @@ Additionally, the statement must not:
 - Contain financial or legal recommendations or advice
 - Contain sensitive topics such as discrimination or violence
 
-If only one of the points mentioned applies, the result is automatically false.
+If only one of the points mentioned applies, the result is automatically false. Please provide an explanation here as well:
+```
+{
+    "result": false,
+    "explanation": "The statement contains a contract number."
+}
+```
 
 ---
 Please carry out the analysis on the basis of these knowledge items and this statement.
