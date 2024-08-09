@@ -61,7 +61,7 @@ Sources:
 
 ---
 Question:
-{statement}
+{question}
 
 ---
 Please return a valid JSON format as the response, as in the example.
