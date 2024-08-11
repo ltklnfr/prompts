@@ -15,9 +15,8 @@ Here are the categories:
 ---
 Please complete these tasks aswell:
 1. sentiment: Rate the sentiment of the message. Utilize common sentiment analysis methods, considering the context of the message. 
-2. emotion: Determine if the message conveys a strong emotional reaction such as frustration, anger, joy, or sadness, regardless of whether the emotion is positive or negative.
-3. language: Identify the language of the message and return its official country code. Utilize language recognition software or algorithms. If no language is detected, return null.
-4. phrase: Translate the phrase “Sorry, I don't speak your language.” into the detected language. If the language cannot be determined, return null.
+2. language: Identify the language of the message and return its official country code. Utilize language recognition software or algorithms. If no language is detected, return null.
+3. phrase: Translate the phrase “Sorry, I don't speak your language.” into the detected language. If the language cannot be determined, return null.
 
 ---
 All tasks should return a value based on a scale between 0 and 1 with exactly one decimal place, unless otherwise defined. 0 is always a little, negative or unlikely. 1 is a lot, positive or very likely. If no analysis is possible, return zero for this category.
@@ -38,7 +37,6 @@ Example result:
     "criticism": 0,
     "smalltalk": 0.3,
     "sentiment": 0.2,
-    "emotion": 0,
     "language": "DE", 
     "phrase": "Es tut mir leid, ich spreche diese Sprache nicht.",
 }
