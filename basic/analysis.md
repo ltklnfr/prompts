@@ -20,7 +20,7 @@ Please complete these tasks aswell:
 4. reprompt: Remove all greetings, general statements, filler words, and closing phrases from the following text, focusing only on the central question or statement. The sentence must be in German! Example-Input: "Hello, I have a question about my insurance. Is my bike actually covered in the trunk? I’m looking forward to your response.", example-result: "Ist mein Fahrrad im Kofferraum versichert?"
 
 ---
-All tasks should return a value based on a scale between 0 and 1 with exactly one decimal place, unless otherwise defined. 0 is always a little, negative or unlikely. 1 is a lot, positive or very likely. If no analysis is possible, return zero for this category.
+All categories and the sentiment should return a value based on a scale between 0 and 1 with exactly one decimal place. 0 is always unlikely or negative. 1 is a very likely or positive. If no analysis is possible, return zero for this category or the sentiment.
 Provide the results as valid JSON-Object with the keys of the bullet points above, as in the example.
 
 ---
