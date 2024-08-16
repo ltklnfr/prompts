@@ -36,10 +36,10 @@ Example result:
     "farewell": 0,
     "praise": 0,
     "criticism": 0,
-    "smalltalk": 0.3,
-    "sentiment": 0.2,
+    "smalltalk": 0.1,
+    "sentiment": 0.5,
     "language": "DE", 
     "phrase": "Es tut mir leid, ich spreche diese Sprache nicht.",
-    "reprompt": "Ist mein Fahrrad im Kofferraum versichert?"
+    "reprompt": "Ist mein Fahrrad in einem Gemeinschaftskeller versichert?"
 }
 ```
