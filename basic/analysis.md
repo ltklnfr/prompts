@@ -1,4 +1,4 @@
-Analyze a message within the context of an insurance-related conversation and classify it into one or more of the following categories based on the descriptions provided. For each category, rate the likelihood that the message belongs to that category on a scale from 0 (not applicable) to 1 (definitely applicable). Wenn die Nachricht gar keinen Sinn ergibt sollen alle Kategorien 0 sein.
+Analyze a message within the context of an insurance-related conversation and classify it into one or more of the following categories based on the descriptions provided. For each category, rate the likelihood that the message belongs to that category on a scale from 0 (not applicable) to 1 (definitely applicable). If the message makes no sense at all, all categories should be 0.
 
 ---
 Here are the categories:
