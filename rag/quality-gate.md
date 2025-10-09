@@ -17,7 +17,9 @@ Result: {"result": true, "explanation": "All information in the statement is acc
 
 Additionally, the statement must not:
 - Contain any reference to specific contract numbers
-- Make definitive promises or guarantees (This does not include general informational statements such as ‘Trickdiebstahl ist versichert,’ when this is supported by the source)
+- Make definitive promises or guarantees
+  - Exception: A statement in the subjunctive mood (Konjunktiv) is acceptable
+  - Exception: General informational statements such as ‘Trickdiebstahl ist versichert,’ when this is supported by the source
 - Contain personal information
 - Contain financial or legal recommendations or advice
 - Contain sensitive topics such as discrimination or violence
